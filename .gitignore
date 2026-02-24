@@ -5,6 +5,10 @@ node_modules/
 dist/
 build/
 
+# WordPress
+*.map
+.env
+
 # Composer
 vendor/
 

@@ -1,5 +1,10 @@
-node_modules
-dist
-build
-*.min.js
-vendor
+# いったん全部無視
+*
+
+# ===== 整形してOKなものだけ許可 =====
+!src/**
+!*.md
+!package.json
+!eslint.config.mjs
+!.prettierrc*
+!.prettierignore

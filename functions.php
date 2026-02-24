@@ -23,7 +23,7 @@ add_action('after_setup_theme', function () {
  */
 add_action('wp_enqueue_scripts', function () {
   wp_enqueue_style(
-    'original-theme',
+    'wp-theme-base',
     get_theme_file_uri('/dist/style.css'),
     [],
     filemtime(get_theme_file_path('/dist/style.css'))

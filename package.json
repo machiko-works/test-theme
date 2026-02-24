@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch src:dist",
+    "dev": "sass --watch src:dist --source-map",
     "build": "sass src:dist --style=compressed",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
